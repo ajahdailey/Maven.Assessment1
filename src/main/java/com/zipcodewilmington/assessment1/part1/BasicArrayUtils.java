@@ -9,7 +9,10 @@ public class BasicArrayUtils {
      * @return the first element in the array
      */
     public static String getFirstElement(String[] stringArray) {
-        return null;
+        String firstElement = stringArray[0];
+
+
+        return firstElement;
     }
 
     /**
@@ -17,7 +20,9 @@ public class BasicArrayUtils {
      * @return the second element in the array
      */
     public static String getSecondElement(String[] stringArray) {
-        return null;
+        String secondElement = stringArray[1];
+
+        return secondElement;
     }
 
     /**
@@ -25,7 +30,9 @@ public class BasicArrayUtils {
      * @return the last element in the array
      */
     public static String getLastElement(String[] stringArray) {
-        return null;
+        String lastElement = stringArray[stringArray.length-1];
+
+        return lastElement;
     }
 
     /**
@@ -33,6 +40,9 @@ public class BasicArrayUtils {
      * @return the second to last element in the array
      */
     public static String getSecondToLastElement(String[] stringArray) {
-        return null;
+        String secondToLast = stringArray[stringArray.length-2];
+
+
+        return secondToLast;
     }
 }
