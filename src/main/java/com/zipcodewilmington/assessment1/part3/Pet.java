@@ -35,14 +35,16 @@ public abstract class Pet implements Animal {
      * @return name of this pet
      */
     public String getName() {
-        return null;
+        String getName = "Nala";
+        return getName;
     }
 
     /**
      * @return age of this pet
      */
     public Integer getAge() {
-        return null;
+       Integer getAge = 2;
+        return getAge;
     }
 
     /**
@@ -56,6 +58,8 @@ public abstract class Pet implements Animal {
      * @return PetOwner object whose composite `pets` collection contains this Pet instance
      */
     public PetOwner getOwner() {
+
+
         return null;
     }
 }
